@@ -126,7 +126,7 @@ The file `all-whistles.xml` or `all-whistles-v4.xml` needs to be installed using
 
 #### Install for MuseScore 4.x
 
-Download the `all-whistles-v4.xml` [instrument extension file][whistles-v4] to your operating system.
+Download the `all-whistles-v4.xml` [instrument extension file][whistles-v4] to your local system.
 
 1. Start Version 4.x MuseScore
 2. use the drop down menus to navigate 'MuseScore' then 'Preferences...' then 'Score' panel
@@ -138,7 +138,7 @@ Note that these whistles appear in the 'World Music' genre, not the 'Common' gen
 
 #### Install for MuseScore 2.x and  MuseScore 3.x
 
-Download the `all-whistles.xml` [instrument extension file][whistles-v23] to your operating system.
+Download the `all-whistles.xml` [instrument extension file][whistles-v23] to your local system.
 Use the same file for both MuseScore version 2.x and version 3.x :
 
 1. For MuseScore 2.x: copy file `all-whistles.xml` to `Documents/MuseScore2/Extensions/all-whistles.xml`
