@@ -1,5 +1,31 @@
-.DS_Store
-.project
+# MuseScore backup files
+*.mscx,
+*.mscz,
+*.mscx~
+*.mscz~
 
-tin_whistle_tablature_v4.qml
-wordlist.dic
+# MuseScore autosave
+.*.mscx
+.*.mscz
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log

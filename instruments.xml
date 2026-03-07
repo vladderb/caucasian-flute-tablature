@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.00">
+  <InstrumentGroup id="woodwinds">
+    <name>Woodwinds</name>
+    <extended>1</extended>
+    
+    <Instrument id="kamyl">
+      <family id="flutes">Flutes</family>
+      <longName>Къамыл / Камыль / Kamyl</longName>
+      <shortName>Kml.</shortName>
+      <trackName>Къамыл / Камыль / Kamyl</trackName>
+      <description>Kamyl is a traditional Circassian flute with 3 holes, tuned in A (A3)</description>
+      <musicXMLid>wind.flutes.kamyl</musicXMLid>
+      <genre>world-music</genre>
+      
+      <!-- Диапазон инструмента (расширен для учета транспонирования) -->
+      <minPitchP>53</minPitchP>
+      <maxPitchP>90</maxPitchP>
+      <minPitchA>53</minPitchA>
+      <maxPitchA>90</maxPitchA>
+      
+      <!-- Транспозиция: нет -->
+      <transposition>0</transposition>
+      
+      <!-- Настройки звука -->
+      <Channel name="normal">
+        <program value="74"/>
+        <controller ctrl="7" value="127"/>
+        <controller ctrl="10" value="64"/>
+        <synti>Fluid</synti>
+      </Channel>
+      
+      <!-- Артикуляции -->
+      <Articulation>
+        <velocity>100</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <Articulation name="staccato">
+        <velocity>100</velocity>
+        <gateTime>50</gateTime>
+      </Articulation>
+      
+      <Articulation name="tenuto">
+        <velocity>100</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <Articulation name="sforzato">
+        <velocity>120</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <!-- Клеф с октавным сдвигом вверх (G8va = octave up) -->
+      <clef>G8va</clef>
+      <concertClef>G8va</concertClef>
+      
+      <!-- Транспозиция -->
+      <transposition>0</transposition>
+      <transposeChromatic>0</transposeChromatic>
+      <transposeDiatonic>0</transposeDiatonic>
+    </Instrument>
+  </InstrumentGroup>
+</museScore>
