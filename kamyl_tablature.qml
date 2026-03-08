@@ -20,7 +20,7 @@ import MuseScore 3.0
 import Muse.UiComponents 1.0
 
 MuseScore {
-   version: "2.0"
+   version: "2.2"
    description: "This plugin provides fingering diagrams for the Kamyl (Circassian flute)"
    title: "Kamyl Tablature"
    categoryCode: "composing-arranging-tools"
@@ -29,47 +29,38 @@ MuseScore {
 
    // Kamyl tabs using Unicode circles: ● (filled) and ○ (empty)
    // Format: "hole1\nhole2\nhole3\nregister\nnoteName"
-   // Index corresponds to pitch offset from base pitch (53 = F3)
-   // Покрывает диапазон 53-90 для учета транспонирования MuseScore
+   // Index corresponds to pitch offset from base pitch (57 = A3)
    property variant tabs : [
-      "●\n●\n●\n0\nA3",   // 0: MIDI 53 = A0 (транспонированный)
-      "●\n●\n○\n0\nBb3",  // 1: MIDI 54 = Bb0 (транспонированный)
-      "",                 // 2: MIDI 55 - not playable
-      "",                 // 3: MIDI 56 - not playable
-      "●\n●\n●\n0\nA3",   // 4: MIDI 57 = A0
-      "●\n●\n○\n0\nBb3",  // 5: MIDI 58 = Bb0
-      "",                 // 6: MIDI 59 - not playable
-      "●\n○\n○\n0\nC4",   // 7: MIDI 60 = C0
-      "",                 // 8: MIDI 61 - not playable
-      "○\n○\n○\n0\nD4",   // 9: MIDI 62 = D0
-      "",                 // 10: MIDI 63 - not playable
-      "",                 // 11: MIDI 64 - not playable
-      "●\n●\n●\n1\nA4",   // 12: MIDI 65 = A1 (транспонированный)
-      "●\n●\n○\n1\nBb4",  // 13: MIDI 66 = Bb1 (транспонированный)
-      "",                 // 14: MIDI 67 - not playable
-      "",                 // 15: MIDI 68 - not playable
-      "●\n●\n●\n1\nA4",   // 16: MIDI 69 = A1
-      "●\n●\n○\n1\nBb4",  // 17: MIDI 70 = Bb1
-      "",                 // 18: MIDI 71 - not playable
-      "●\n○\n○\n1\nC5",   // 19: MIDI 72 = C1
-      "",                 // 20: MIDI 73 - not playable
-      "○\n○\n○\n1\nD5",   // 21: MIDI 74 = D1
-      "",                 // 22: MIDI 75 - not playable
-      "●\n●\n●\n2\nE5",   // 23: MIDI 76 = E2
-      "●\n●\n○\n2\nF5",   // 24: MIDI 77 = F2
-      "",                 // 25: MIDI 78 - not playable
-      "●\n○\n○\n2\nG5",   // 26: MIDI 79 = G2
-      "",                 // 27: MIDI 80 - not playable
-      "○\n○\n○\n2\nA5",   // 28: MIDI 81 = A2
-      "●\n●\n○\n3\nBb5",  // 29: MIDI 82 = Bb3
-      "",                 // 30: MIDI 83 - not playable
-      "●\n○\n○\n3\nC6",   // 31: MIDI 84 = C3
-      "",                 // 32: MIDI 85 - not playable
-      "○\n○\n○\n3\nD6",   // 33: MIDI 86 = D3
-      "",                 // 34: MIDI 87 - not playable
-      "●\n○\n○\n3\nC6",   // 35: MIDI 88 = C3 (транспонированный)
-      "",                 // 36: MIDI 89 - not playable
-      "○\n○\n○\n3\nD6"    // 37: MIDI 90 = D3 (транспонированный)
+      "●\n●\n●\n0\nA3",   // 0: MIDI 57 = A0
+      "●\n●\n○\n0\nBb3",  // 1: MIDI 58 = Bb0
+      "",                 // 2: MIDI 59 - not playable
+      "●\n○\n○\n0\nC4",   // 3: MIDI 60 = C0
+      "",                 // 4: MIDI 61 - not playable
+      "○\n○\n○\n0\nD4",   // 5: MIDI 62 = D0
+      "",                 // 6: MIDI 63 - not playable (dead zone)
+      "",                 // 7: MIDI 64 - not playable (dead zone)
+      "",                 // 8: MIDI 65 - not playable (dead zone)
+      "",                 // 9: MIDI 66 - not playable (dead zone)
+      "",                 // 10: MIDI 67 - not playable (dead zone)
+      "",                 // 11: MIDI 68 - not playable (dead zone)
+      "●\n●\n●\n1\nA4",   // 12: MIDI 69 = A1
+      "●\n●\n○\n1\nBb4",  // 13: MIDI 70 = Bb1
+      "",                 // 14: MIDI 71 - not playable
+      "●\n○\n○\n1\nC5",   // 15: MIDI 72 = C1
+      "",                 // 16: MIDI 73 - not playable
+      "○\n○\n○\n1\nD5",   // 17: MIDI 74 = D1
+      "",                 // 18: MIDI 75 - not playable
+      "●\n●\n●\n2\nE5",   // 19: MIDI 76 = E2
+      "●\n●\n○\n2\nF5",   // 20: MIDI 77 = F2
+      "",                 // 21: MIDI 78 - not playable
+      "●\n○\n○\n2\nG5",   // 22: MIDI 79 = G2
+      "",                 // 23: MIDI 80 - not playable
+      "○\n○\n○\n2\nA5",   // 24: MIDI 81 = A2
+      "●\n●\n○\n3\nBb5",  // 25: MIDI 82 = Bb3
+      "",                 // 26: MIDI 83 - not playable
+      "●\n○\n○\n3\nC6",   // 27: MIDI 84 = C3
+      "",                 // 28: MIDI 85 - not playable
+      "○\n○\n○\n3\nD6"    // 29: MIDI 86 = D3
    ]
 
    MessageDialog {
@@ -114,10 +105,13 @@ MuseScore {
 
    function getKamylPitch(instrument) {
       var pitch = "none"
-      if (instrument === "kamyl" || instrument === "wind.flutes.kamyl") {
+      // Работаем с любым инструментом - просто применяем табулатуру камыля
+      if (instrument === "kamyl" || instrument === "wind.flutes.kamyl" || !instrument || instrument === "") {
          pitch = "kamyl"
       } else {
-         console.log("No pitch found for instrumentId: " + instrument)
+         // Для всех остальных инструментов тоже применяем табулатуру камыля
+         console.log("Applying kamyl tablature to instrument: " + instrument)
+         pitch = "kamyl"
       }
       return pitch
    }
@@ -125,7 +119,7 @@ MuseScore {
    function getBasePitch(kamylPitch) {
       var pitch = 0
       if (kamylPitch === "kamyl") {
-         pitch = 53  // F3 (скорректировано для G8va)
+         pitch = 57  // A3 (базовая нота камыля)
       } else {
          console.log("No base pitch found for: " + kamylPitch)
       }
@@ -142,24 +136,80 @@ MuseScore {
       return offset
    }
 
-   function removeDuplicatesInSegment(segment, elementToKeep) {
+   function removeAllTabsInSegment(segment) {
       var removables = [];
 
       for (var i = 0; i < segment.annotations.length; i++) {
          var element = segment.annotations[i];
-         if (element.is(elementToKeep)) {
-            continue;
-         }
-
-         if (element.offsetX == elementToKeep.offsetX && element.offsetY == elementToKeep.offsetY) {
-            removables.push(element);
+         
+         // Удаляем все STAFF_TEXT, которые содержат кружки или являются названиями нот
+         if (element.type === Element.STAFF_TEXT) {
+            var text = element.text;
+            var isTab = text.indexOf("●") >= 0 || text.indexOf("○") >= 0;
+            
+            // Названия нот могут содержать HTML теги: <font size="5"/><font face="Arial"/>A3
+            // Проверяем, содержит ли текст паттерн названия ноты (буква A-G + опционально b/# + цифра)
+            var notePattern = /[A-G][b#]?\d/;
+            var isNoteName = notePattern.test(text);
+            
+            // Дополнительная проверка: размер шрифта 5 или offsetY > 10
+            var isSmallFont = element.size === 5 || element.fontSize === 5;
+            var isBelowStaff = element.offsetY > 10;
+            
+            if (isTab || (isNoteName && (isSmallFont || isBelowStaff))) {
+               removables.push(element);
+            }
          }
       }
 
       for (var i = 0; i < removables.length; i++) {
-         var element = segment.annotations[i];
-         removeElement(element);
+         removeElement(removables[i]);
       }
+   }
+
+   function removeAllTabs() {
+      curScore.startCmd();
+
+      var cursor = curScore.newCursor();
+      var startStaff;
+      var endStaff;
+      var endTick;
+      var fullScore = false;
+      cursor.rewind(1)
+      
+      if (!cursor.segment) {
+         fullScore = true
+         startStaff = 0;
+         endStaff  = curScore.nstaves - 1;
+         console.log("Removing tabs from full score, staves " + startStaff + " - " + endStaff)
+      } else {
+         startStaff = cursor.staffIdx
+         cursor.rewind(2)
+         if (cursor.tick === 0) {
+            endTick = curScore.lastSegment.tick + 1
+         } else {
+            endTick = cursor.tick
+         }
+         endStaff = cursor.staffIdx
+         console.log("Removing tabs from selected staves " + startStaff + " - " + endStaff)
+      }
+
+      for (var staff = startStaff; staff <= endStaff; staff++) {
+         cursor.voice = 0
+         cursor.rewind(1)
+         cursor.staffIdx = staff
+
+         if (fullScore)
+            cursor.rewind(0)
+
+         while (cursor.segment && (fullScore || cursor.tick < endTick)) {
+            removeAllTabsInSegment(cursor.segment);
+            cursor.next()
+         }
+      }
+
+      curScore.endCmd();
+      console.log("All tabs removed")
    }
 
    function renderKamylTablature () {
@@ -240,6 +290,9 @@ MuseScore {
                text.text = selectKamylTabCharacter(pitch, basePitch)
                
                if (text.text !== "") {
+                  // Удаляем все старые табы в этом сегменте перед добавлением новых
+                  removeAllTabsInSegment(cursor.segment);
+                  
                   // Разделяем таб на основную часть и название ноты
                   var tabParts = text.text.split("\n")
                   var noteName = tabParts[tabParts.length - 1]  // Последняя строка - название ноты
@@ -272,8 +325,6 @@ MuseScore {
                   // offsetY = базовое смещение + высота 4 строк (уменьшенный коэффициент)
                   noteText.offsetY = tabOffsetY + (tabFontSizeNormal * 0.25 * 4)
                   noteText.offsetX = 0.5
-
-                  removeDuplicatesInSegment(cursor.segment, text);
                }
 
                text = newElement(Element.STAFF_TEXT)

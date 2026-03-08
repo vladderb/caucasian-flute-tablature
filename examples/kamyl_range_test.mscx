@@ -30,19 +30,17 @@
         <StaffType group="pitched">
           <name>stdNormal</name>
           </StaffType>
-        <defaultClef>G8va</defaultClef>
         </Staff>
       <trackName>Kamyl</trackName>
       <Instrument id="kamyl">
         <longName>Къамыл / Камыль / Kamyl</longName>
         <shortName>Kml.</shortName>
         <trackName>Kamyl</trackName>
-        <minPitchP>53</minPitchP>
-        <maxPitchP>90</maxPitchP>
-        <minPitchA>53</minPitchA>
-        <maxPitchA>90</maxPitchA>
+        <minPitchP>57</minPitchP>
+        <maxPitchP>86</maxPitchP>
+        <minPitchA>57</minPitchA>
+        <maxPitchA>86</maxPitchA>
         <instrumentId>wind.flutes.kamyl</instrumentId>
-        <clef>G8va</clef>
         <Channel>
           <program value="74"/>
           <synti>Fluid</synti>
@@ -86,61 +84,15 @@
             <eid>HoVxq9y/YuM_sF7Pwk9jUTI</eid>
             <text>Регистр 0</text>
             </StaffText>
-          <StaffText>
-            <eid>WBk8RG/Q7qD_3kkdAyJFGpB</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-●
-0</text>
-            </StaffText>
-          <StaffText>
-            <eid>h5imIV/WOXH_B8lARkjZnVH</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>A3</text>
-            </StaffText>
           <Chord>
             <eid>DWRF0F18/VO_cTqzvhVjdVC</eid>
             <durationType>quarter</durationType>
             <Note>
               <eid>ct4HMBh889C_qzICrsWrXyK</eid>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>KBVNDUzWrWI_Zno4M1uKGHG</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-○
-0</text>
-            </StaffText>
-          <StaffText>
-            <eid>wAVu2JgWsUH_iSEV+Sjg4JO</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>Bb3</text>
-            </StaffText>
           <Chord>
             <eid>/JZv51s4UIN_nNHxdvfZvC</eid>
             <durationType>quarter</durationType>
@@ -148,35 +100,12 @@
               <eid>++lm0Uq8Iz_qRPfBptVTyH</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <eid>sQLgqb/3WDG_FNvAfGRqTuN</eid>
+                <eid>3/Zt2V6Qz1H_8X+zZa+pvJK</eid>
                 </Accidental>
-              <pitch>54</pitch>
-              <tpc>8</tpc>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>S2RLt6qehZK_a2FArURgNmE</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-○
-○
-0</text>
-            </StaffText>
-          <StaffText>
-            <eid>nYKs3R0PYxP_dM71dZn3SJI</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>C4</text>
-            </StaffText>
           <Chord>
             <eid>4ENwooClxzH_r2m4uelCs2D</eid>
             <durationType>quarter</durationType>
@@ -186,29 +115,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>0c72ETAwtH_JHhRUH2AfZP</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>○
-○
-○
-0</text>
-            </StaffText>
-          <StaffText>
-            <eid>ahxQ8DgC60F_eS7C0TSX56G</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>D4</text>
-            </StaffText>
           <Chord>
             <eid>XRHyUaFyYfD_/bIaT2zCkZN</eid>
             <durationType>quarter</durationType>
@@ -227,61 +133,15 @@
             <eid>Tfz8b1BJf9J_LLaTHtMtrND</eid>
             <text>Регистр 1</text>
             </StaffText>
-          <StaffText>
-            <eid>sMjpZlhVV6N_SsHsvb0skx</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-●
-1</text>
-            </StaffText>
-          <StaffText>
-            <eid>Ft/pkGBoHnM_RN9Q63g0NfI</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>A4</text>
-            </StaffText>
           <Chord>
             <eid>jxtoN78GaLO_TYxl5YTTxS</eid>
             <durationType>quarter</durationType>
             <Note>
               <eid>PE2aoB88IjP_9wzX4oR3fLN</eid>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>8rtbWYlTulE_867MBbzcMOH</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-○
-1</text>
-            </StaffText>
-          <StaffText>
-            <eid>RczHCZ4dNLE_/QHRwfp6jTB</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>Bb4</text>
-            </StaffText>
           <Chord>
             <eid>DC0CL14ZpnO_o0cgbe5gvgB</eid>
             <durationType>quarter</durationType>
@@ -289,35 +149,12 @@
               <eid>vJaVPf1w09_FwmRx1k7tFI</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <eid>cLkBC0qDe7B_+PcYmilL0+O</eid>
+                <eid>ojdqIi0veC_6zVMJFQfdyF</eid>
                 </Accidental>
-              <pitch>66</pitch>
-              <tpc>8</tpc>
+              <pitch>70</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>6Ps8l8GtPrO_YK8lJbUzUQG</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-○
-○
-1</text>
-            </StaffText>
-          <StaffText>
-            <eid>Kvf++duziXB_SkVssHlElWL</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>C5</text>
-            </StaffText>
           <Chord>
             <eid>OLaTmVZ9jBB_LsWbwyO8O5L</eid>
             <durationType>quarter</durationType>
@@ -327,29 +164,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>rK23mh0Y/jD_5vTblZmFV6K</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>○
-○
-○
-1</text>
-            </StaffText>
-          <StaffText>
-            <eid>kzM+olq5JTN_aRjxa3DsX/M</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>D5</text>
-            </StaffText>
           <Chord>
             <eid>6ellVuHrTFG_DEEUTMKHP6E</eid>
             <durationType>quarter</durationType>
@@ -368,29 +182,6 @@
             <eid>Iuk+UZcm81G_mzIP2GN+qqF</eid>
             <text>Регистр 2</text>
             </StaffText>
-          <StaffText>
-            <eid>sCHxkusa1QD_ddEyAPnmBeB</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-●
-2</text>
-            </StaffText>
-          <StaffText>
-            <eid>6aizg0a89tD_3Mr9rX498tO</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>E5</text>
-            </StaffText>
           <Chord>
             <eid>fMQjsCvPvJ_9J7KUtU77B</eid>
             <durationType>quarter</durationType>
@@ -400,29 +191,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>b3ftrFJN9BF_LMHlaZVrZ0K</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-○
-2</text>
-            </StaffText>
-          <StaffText>
-            <eid>h6A6yxXuzEI_mPEEfK/OMmM</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>F5</text>
-            </StaffText>
           <Chord>
             <eid>ljzO1KscApD_RnADbnhXvdN</eid>
             <durationType>quarter</durationType>
@@ -432,29 +200,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>NqKwsDnJwEG_85OzasAwEqM</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-○
-○
-2</text>
-            </StaffText>
-          <StaffText>
-            <eid>2PbkkZCf4MM_mlAkBXbe93K</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>G5</text>
-            </StaffText>
           <Chord>
             <eid>1aSto58jPFB_6hkIF++pZRD</eid>
             <durationType>quarter</durationType>
@@ -464,29 +209,6 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>EoshZRn6NcH_ahhBMZ5qF1E</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>○
-○
-○
-2</text>
-            </StaffText>
-          <StaffText>
-            <eid>YiBtBE9p9fN_Chd32Tg7s1K</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>A5</text>
-            </StaffText>
           <Chord>
             <eid>hjmVV4dJXN_gb0wwNPEdZM</eid>
             <durationType>quarter</durationType>
@@ -505,29 +227,6 @@
             <eid>Vp1dlAF6hnH_7W6V8QrYQrF</eid>
             <text>Регистр 3</text>
             </StaffText>
-          <StaffText>
-            <eid>DCDYAhdfEdP_gdu9JqwXVDD</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-●
-○
-3</text>
-            </StaffText>
-          <StaffText>
-            <eid>L5NtVbsHBTI_rYDix8IlM1J</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>Bb5</text>
-            </StaffText>
           <Chord>
             <eid>wr3jv0InomN_llDEhGkzlGK</eid>
             <durationType>quarter</durationType>
@@ -535,78 +234,28 @@
               <eid>YRx9OqyflqB_eUDFl5aFB7K</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                <eid>llPeLwcBqaC_yk5wsrSIARC</eid>
+                <eid>VOWi1BjLdbD_C9fvddsTeVM</eid>
                 </Accidental>
               <pitch>82</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>mJnjHpJN+BG_zneAdPXesTB</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>●
-○
-○
-3</text>
-            </StaffText>
-          <StaffText>
-            <eid>wGze2EIHG9F_bScVYYCc0bO</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>C6</text>
-            </StaffText>
           <Chord>
             <eid>53IpqiTJa2L_hVGVCU8b8L</eid>
             <durationType>quarter</durationType>
             <Note>
               <eid>0vrGX5E5/tL_gHPq3sHQWkK</eid>
-              <pitch>88</pitch>
-              <tpc>18</tpc>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <eid>4oV/d6uodZK_kNZcZLkI4</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>8</size>
-            <align>left,top</align>
-            <offset x="0.5" y="8"/>
-            <text><font size="8"/><font face="Arial"/>○
-○
-○
-3</text>
-            </StaffText>
-          <StaffText>
-            <eid>4IRI/tLD86C_R1u6xrNRgTK</eid>
-            <autoplace>0</autoplace>
-            <placement>below</placement>
-            <family>Arial</family>
-            <size>5</size>
-            <align>left,top</align>
-            <offset x="0.5" y="16"/>
-            <text><font size="5"/><font face="Arial"/>D6</text>
-            </StaffText>
           <Chord>
             <eid>n84WgfXK3cP_ZRO95jF2uS</eid>
             <durationType>quarter</durationType>
             <Note>
               <eid>HldLN0f1amG_K7T1ZwO8kHN</eid>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                <eid>VQ5yobdoruH_aUiPp9YuYZM</eid>
-                </Accidental>
-              <pitch>90</pitch>
-              <tpc>20</tpc>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <Rest>
