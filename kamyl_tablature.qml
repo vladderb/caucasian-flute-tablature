@@ -20,7 +20,7 @@ import MuseScore 3.0
 import Muse.UiComponents 1.0
 
 MuseScore {
-   version: "2.2"
+   version: "2.3"
    description: "This plugin provides fingering diagrams for the Kamyl (Circassian flute)"
    title: "Kamyl Tablature"
    categoryCode: "composing-arranging-tools"
@@ -281,6 +281,9 @@ MuseScore {
 
          while (cursor.segment && (fullScore || cursor.tick < endTick)) {
             if (cursor.element && cursor.element.type === Element.CHORD) {
+               // Удаляем все старые табы в этом сегменте ПЕРЕД проверкой новых
+               removeAllTabsInSegment(cursor.segment);
+               
                var text = newElement(Element.STAFF_TEXT);
 
                // Process main note (no tie check, no repeat check)
@@ -290,9 +293,6 @@ MuseScore {
                text.text = selectKamylTabCharacter(pitch, basePitch)
                
                if (text.text !== "") {
-                  // Удаляем все старые табы в этом сегменте перед добавлением новых
-                  removeAllTabsInSegment(cursor.segment);
-                  
                   // Разделяем таб на основную часть и название ноты
                   var tabParts = text.text.split("\n")
                   var noteName = tabParts[tabParts.length - 1]  // Последняя строка - название ноты
