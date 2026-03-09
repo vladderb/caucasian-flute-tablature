@@ -20,7 +20,7 @@ import QtQuick 2.15
 import MuseScore 3.0
 
 MuseScore {
-   version: "1.2"
+   version: "1.6"
    description: "Remove all Kamyl tablature from the score"
    title: "Remove Kamyl Tablature"
    categoryCode: "composing-arranging-tools"
@@ -31,23 +31,21 @@ MuseScore {
       for (var i = 0; i < segment.annotations.length; i++) {
          var element = segment.annotations[i];
          
-         // Удаляем все STAFF_TEXT, которые содержат кружки или являются названиями нот
+         // Удаляем все STAFF_TEXT, которые содержат кружки, знаки вопроса или цифры регистра
          if (element.type === Element.STAFF_TEXT) {
             var text = element.text;
-            var isTab = text.indexOf("●") >= 0 || text.indexOf("○") >= 0;
             
-            // Названия нот могут содержать HTML теги: <font size="5"/><font face="Arial"/>A3
-            // Проверяем, содержит ли текст паттерн названия ноты (буква A-G + опционально b/# + цифра)
-            var notePattern = /[A-G][b#]?\d/;
-            var isNoteName = notePattern.test(text);
+            // Проверяем наличие кружков и знаков вопроса
+            var isTab = text.indexOf("●") >= 0 || text.indexOf("○") >= 0 || text.indexOf("◑") >= 0 || text.indexOf("?") >= 0;
             
-            // Дополнительная проверка: размер шрифта 5 или offsetY > 10
-            var isSmallFont = element.size === 5 || element.fontSize === 5;
-            var isBelowStaff = element.offsetY > 10;
+            // Проверяем, является ли это цифрой регистра (может содержать HTML теги)
+            // Ищем одиночную цифру 0-4, возможно с HTML тегами вокруг
+            var cleanText = text.replace(/<[^>]*>/g, '').trim();
+            var isRegister = /^[0-4]$/.test(cleanText);
             
-            if (isTab || (isNoteName && (isSmallFont || isBelowStaff))) {
+            if (isTab || isRegister) {
                removables.push(element);
-               console.log("Removing: " + text.substring(0, 50) + " (offsetY: " + element.offsetY + ", size: " + element.size + ")");
+               console.log("Removing: " + cleanText);
             }
          }
       }
