@@ -20,7 +20,7 @@ import QtQuick 2.15
 import MuseScore 3.0
 
 MuseScore {
-   version: "1.6"
+   version: "1.2"
    description: "Remove all Kamyl tablature from the score"
    title: "Remove Kamyl Tablature"
    categoryCode: "composing-arranging-tools"

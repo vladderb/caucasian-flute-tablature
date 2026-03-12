@@ -2,7 +2,7 @@ import QtQuick 2.0
 import MuseScore 3.0
 
 MuseScore {
-   version: "3.0"
+   version: "1.2"
    description: "Add Kamyl fingering tablature"
    menuPath: "Plugins.Kamyl Tablature"
 

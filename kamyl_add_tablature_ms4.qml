@@ -21,7 +21,7 @@ import MuseScore 3.0
 import Muse.UiComponents 1.0
 
 MuseScore {
-   version: "1.1"
+   version: "1.2"
    description: "This plugin provides fingering diagrams for the Kamyl (Circassian flute)"
    title: "Kamyl Tablature"
    categoryCode: "composing-arranging-tools"
