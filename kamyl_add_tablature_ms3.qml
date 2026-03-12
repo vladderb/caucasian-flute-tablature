@@ -1,3 +1,21 @@
+//=============================================================================
+//  MuseScore
+//  Music Composition & Notation
+//
+//  Kamyl (Circassian Flute) Tab Plugin
+//
+//  Copyright (C) 2026 Vladislav Derbenyov
+//  Based on the Tin Whistle Tablature Plugin
+//  Copyright (C) 2012 Werner Schweer
+//  Copyright (C) 2013 - 2016 Joachim Schmitz
+//  Copyright (C) 2014 Jörn Eichler
+//
+//  This program is free software; you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License version 2
+//  as published by the Free Software Foundation and appearing in
+//  the file LICENSE
+//=============================================================================
+
 import QtQuick 2.0
 import MuseScore 3.0
 

@@ -1,3 +1,17 @@
+//=============================================================================
+//  MuseScore
+//  Music Composition & Notation
+//
+//  Kamyl (Circassian Flute) Tab Plugin - Remove Tabs
+//
+//  Copyright (C) 2026 Vladislav Derbenyov
+//
+//  This program is free software; you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License version 2
+//  as published by the Free Software Foundation and appearing in
+//  the file LICENSE
+//=============================================================================
+
 import QtQuick 2.0
 import MuseScore 3.0
 

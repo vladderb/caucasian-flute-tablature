@@ -5,10 +5,6 @@
 //  Kamyl (Circassian Flute) Tab Plugin - Remove Tabs
 //
 //  Copyright (C) 2026 Vladislav Derbenyov
-//  Based on the Tin Whistle Tablature Plugin
-//  Copyright (C) 2012 Werner Schweer
-//  Copyright (C) 2013 - 2016 Joachim Schmitz
-//  Copyright (C) 2014 Jörn Eichler
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License version 2
