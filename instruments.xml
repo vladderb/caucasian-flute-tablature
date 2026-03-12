@@ -60,5 +60,62 @@
       <transposeChromatic>0</transposeChromatic>
       <transposeDiatonic>0</transposeDiatonic>
     </Instrument>
+    
+    <Instrument id="uadyndz">
+      <family id="flutes">Flutes</family>
+      <longName>Уадындз / Uadyndz</longName>
+      <shortName>Uad.</shortName>
+      <trackName>Уадындз / Uadyndz</trackName>
+      <description>Uadyndz is a traditional Circassian flute with 4 holes (1 back, 3 front), tuned in B (B3)</description>
+      <musicXMLid>wind.flutes.uadyndz</musicXMLid>
+      <genre>world-music</genre>
+      
+      <!-- Диапазон инструмента -->
+      <minPitchP>59</minPitchP>
+      <maxPitchP>91</maxPitchP>
+      <minPitchA>59</minPitchA>
+      <maxPitchA>91</maxPitchA>
+      
+      <!-- Транспозиция: нет -->
+      <transposition>0</transposition>
+      
+      <!-- Настройки звука -->
+      <Channel name="normal">
+        <program value="74"/>
+        <controller ctrl="7" value="127"/>
+        <controller ctrl="10" value="64"/>
+        <synti>Fluid</synti>
+      </Channel>
+      
+      <!-- Артикуляции -->
+      <Articulation>
+        <velocity>100</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <Articulation name="staccato">
+        <velocity>100</velocity>
+        <gateTime>50</gateTime>
+      </Articulation>
+      
+      <Articulation name="tenuto">
+        <velocity>100</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <Articulation name="sforzato">
+        <velocity>120</velocity>
+        <gateTime>100</gateTime>
+      </Articulation>
+      
+      <!-- Обычный скрипичный ключ -->
+      <clef>G</clef>
+      <concertClef>G</concertClef>
+      
+      <!-- Транспозиция -->
+      <transposition>0</transposition>
+      <transposeChromatic>0</transposeChromatic>
+      <transposeDiatonic>0</transposeDiatonic>
+    </Instrument>
   </InstrumentGroup>
 </museScore>
